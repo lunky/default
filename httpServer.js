@@ -8,7 +8,7 @@ http.createServer(function (request, response) {
 
     var filePath = '.' + request.url;
     if (filePath == './')
-        filePath = './index.htm';
+        filePath = './index.html';
 
     var extname = path.extname(filePath);
     var contentType = 'text/html';
@@ -43,6 +43,7 @@ http.createServer(function (request, response) {
 
 }).listen(process.env.PORT);
 
-console.log('Server running at http://127.0.0.1:8125/');
+console.log('Hallo Server running at http://5by5.lunky.c9.io/' );
+//console.log('Server running at http://127.0.0.1:8125/');
 //}).listen(process.env.PORT);
 //console.log('Server running');
