@@ -42,8 +42,12 @@ http.createServer(function (request, response) {
     });
 
 }).listen(process.env.PORT);
+<<<<<<< HEAD
 
 console.log('Hallo Server running at http://5by5.lunky.c9.io/' );
 //console.log('Server running at http://127.0.0.1:8125/');
+=======
+console.log('Server running  ');
+>>>>>>> 71be1a497a44fee70e1ef6f1e07803e170a23405
 //}).listen(process.env.PORT);
 //console.log('Server running');
